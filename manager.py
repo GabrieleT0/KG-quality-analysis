@@ -77,7 +77,7 @@ filename = str(filename)
 OutputCSV.writeHeader(filename)
 
 #REMOVING KGs THAT SENDS IN LOOP THE SCRIPT
-utils.removeProblematicEndpoint(toAnalyze)
+#utils.removeProblematicEndpoint(toAnalyze)
 
 for i in range(len(toAnalyze)):
     kg = Analyses.analyses(toAnalyze[i])
